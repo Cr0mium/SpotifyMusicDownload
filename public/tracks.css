@@ -1,0 +1,106 @@
+body{
+    /* background-color: rgb(11, 30, 57); */
+    background-color: rgb(25,25,25);
+    color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: default;
+    }
+.tracks {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 0px;
+    /* background-color: rgb(15, 38, 70); */
+    /* width: 500px; */
+    white-space: nowrap;
+    padding: 20px 20px;
+    /* border-radius: 20px; */
+}
+
+.song{
+    display: flex;
+    flex-direction: row;
+    /* width: 30%; */
+    height: 80px;
+    justify-content: left;
+    align-items: center;
+    font-size: medium;
+    width: 500px;
+    padding: 0px 20px;
+    border-radius: 10px;
+    /* height: 100px; */
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+
+.songDetails{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.song img{
+    height: 60px;
+}
+
+.song p{
+    padding: 0;
+    background-color: blanchedalmond;
+}
+
+.checkbox{
+    margin-right: 10px;
+    pointer-events: none;
+}
+
+.selected{
+    color: rgb(101,212,110);
+    background-color: black;
+    
+}
+
+.buttonSelected{
+    background-color: rgb(101,212,110);
+}
+
+.button{
+    border: 2px solid rgb(101,212,110);
+    border-radius: 25px;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+/* CSS */
+.button-3 {
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  /* padding: 6px 16px; */
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+
